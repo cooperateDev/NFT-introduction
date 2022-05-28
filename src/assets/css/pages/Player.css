@@ -1,0 +1,609 @@
+.player-container {
+  margin-top: 60px;
+}
+
+.player-container .tab-bar-container .tabs-container{
+  border-radius: 0px;
+  width: fit-content;
+  padding-left: calc(100vw - 100%);
+}
+
+.player-container section{
+  background-color: #171923;
+}
+
+.player-container .tab-bar-container{
+  background-color: #171923;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.player-container  .tab-bar-container .tab-item {
+  width: 90px;
+}
+
+.player-container .search-bar-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;  
+  padding-left: calc(100vw - 100%);
+}
+
+.player-container .search-bar {
+  padding: 10px;
+  width: 360px;
+}
+
+.player-container .modal-position-adjust{
+  right: 9px;
+}
+
+/* For Profile Tab */
+
+.player-container .carousel{
+  width: 100%;
+}
+
+.player-container .alice-carousel{
+  width: 304px;
+}
+
+.player-container .blog-title{
+  margin-top:30px;
+  margin-bottom: 20px;
+  font-family: 'Rajdhani-semibold';
+  font-size: 26px;
+}
+
+.player-container .blog-content {
+  font-family: 'Rajdhani-regular';
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+.player-container .player-card {
+  width: 100%;
+  border-radius: 0px;
+  background: linear-gradient(to bottom, transparent, #171923), url('@assets/images/playercard-bg-small.jpg');
+  background-size: cover;
+  padding: 20px 24px 3px 24px;
+  font-family: 'Rajdhani-semibold';
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.player-container .player-card .img img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.player-container .player-card .name {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.player-container .player-card .img img {
+  width: 150px;
+  height: 150px;
+}
+
+.player-container .player-cost {
+  font-weight: 600;
+  font-size: 26px;
+  display: block;
+  margin-top: 20px;
+}
+
+.player-container .player-cost span{
+  margin: 0 6px;
+}
+
+.player-container .player-stake {
+  font-weight: 600;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 12px;
+  margin-top: 10px;
+}
+
+.player-container .player-stake span{
+  margin: 0 3px;
+}
+
+.player-container .divide {
+  height: 14px;
+  border-bottom: 1px solid #56596A;
+  margin-bottom: 25px;
+}
+
+.player-container .profile-info {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 2px 0;
+}
+
+.player-container .button-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+  
+.player-container .button-line .button-box {  
+  padding: 24px 20px;
+  width: fit-content;
+  position: static;
+  height: 50px;
+  left: 0px;
+  top: 0px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  margin: 0px 16px;
+  cursor: pointer;
+  font-family: 'Rajdhani-semibold';
+  font-style: normal;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;    
+  background: #81df0d;
+  border: 1px solid #81df0d;
+  color: #171923;
+}
+
+.player-container .button-line .btn-disabled{
+  background: #171923;
+  color: #81df0d;
+}
+
+.player-container .chart-view-button{
+  width: 40px;
+  height: 40px;
+  border: 1px solid #6BC909;
+  border-radius: 100%;
+  position: absolute;
+  right: -60%;
+  background: url('@assets/images/chart.png'), #6BC909;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.player-container .player-chart{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.player-container .player-chart .chart{
+  width: 360px;
+}
+
+.player-container  .chart-header{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.player-container .chart-header svg{
+  color: #6BC909;
+  cursor: pointer;
+}
+
+.player-container .player-chart .player-name{
+  font-family: 'Rajdhani-bold';
+  font-weight: 700;
+  font-size: 22px;
+  color: white;
+}
+
+.player-container .player-chart .chart,
+.player-container .player-chart .chart .echarts-for-react {
+  height: 400px!important;
+}
+
+.player-container .player-chart .chart-period{
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #222435;
+  margin-bottom: 14px;
+  padding: 20px 20px 20px 26px;
+}
+
+.player-container .player-chart .chart-period div{
+  font-family: 'Rajdhani-semibold';
+  font-weight: 600;
+  font-size: 16px;
+  color: #6BC909;
+  border-radius: 50px;
+  cursor: pointer;  
+  padding: 4px 10px;
+}
+
+.player-container .player-chart .chart-period .button-hover{
+  background: #6BC909;
+  border: 1px solid #6BC909;
+  color: #171923!important;
+}
+
+.player-container .player-chart .chart-option{
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #222435;
+  padding: 16px;
+}
+
+.player-container .player-chart .chart-option div{
+  font-family: 'Rajdhani-semibold';
+  font-weight: 600;
+  font-size: 12px;
+  color: #6BC909;
+  border: 1px solid #6BC909;
+  border-radius: 50px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.player-container .player-chart .chart-option .button-hover{
+  background: #6BC909;
+  border: 1px solid #6BC909;
+  color: #171923!important;
+  padding: 6px 10px;
+}
+
+.player-container .new-nfts .nft-card .nft{
+  width: 300px;
+  height: 300px;
+  background: url('@assets/images/card2-bg-min.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin: auto;
+}
+
+.player-container .new-nfts .second-part {
+  width: 300px;
+  height: 230px;
+  background: linear-gradient(156.63deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 115.46%);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 16px 24px 29px 24px;
+  font-family: 'Rajdhani-bold';
+  font-weight: 700;
+  font-size: 21px;
+  margin: auto;
+}
+
+.player-container .new-nfts .nft-image-cover {
+  display: flex;
+  justify-content: center;
+}
+
+.player-container .new-nfts .nft-image {
+  width: 300px;
+  height: 300px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.player-container .new-nfts .nft-bid-info-header {
+  color: white;
+  font-family: 'Rajdhani-semibold';
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.player-container .new-nfts .nft-bid-info-body {
+  color: #6BC909;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.player-container .new-nfts .nft-name {
+  color: #80828F;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-top: 1px solid #80828F;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.player-container .new-nfts .nft-title, 
+.player-container .new-nfts .nft-number {
+  color: white;
+  margin: 2px 0;
+  text-align: left;
+}
+
+.player-container .new-nfts .nft-bid-button {
+  padding: 16px;
+  height: 50px;
+  background: #81df0d;
+  border: 1px solid #81df0d;
+  box-sizing: border-box;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Rajdhani-semibold';
+  font-style: normal;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 16px;
+  color: #171923;
+  line-height: 125%;
+  margin-top: 10px;
+  margin: 10px 0 0;
+  width: 100%;
+}
+
+.player-container .open-polls { 
+  width: 300px;
+}
+
+.player-container .poll-container { 
+  background: linear-gradient(156.63deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 115.46%);
+  border-radius: 10px;
+  padding: 16px 24px 10px 24px;
+  font-family: 'Rajdhani-semibold';
+  font-weight: 600;
+  font-size: 16px;
+  width: 300px;
+}
+
+
+.player-container .poll-container .poll-header{
+  font-family: 'Rajdhani-semibold';
+  font-style: normal;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 22px;
+  color: #6BC909;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.player-container .poll-container .poll-item{
+  border-radius: 10px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #6BC909;
+  margin-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #12131C;
+  cursor: pointer;
+}
+
+.player-container .poll-container .poll-item:hover{
+  height: 70px;
+  transition: 0.3s;
+  background-color: #1a1c29;
+}
+
+.player-container .poll-closed-container {
+  cursor: pointer;
+}
+
+.player-container .poll-closed-container:hover{
+  height: 180px;
+  transition: 0.5s;
+  background-color: #1a1c29;
+}
+
+.player-container .poll-container .poll-footer{
+  font-family: 'Rajdhani-regular';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17.5px;
+  color: #ABACB5;
+  display: flex;
+  justify-content: space-between;
+  padding:10px;
+}
+
+.player-container .poll-container .poll-footer .arrow-down{
+  width: 15px;
+  height: 15px;
+  padding-left: 5px;
+}
+
+.player-container .giveaways{
+  background-color: #12131C;
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.player-container .giveaways .blog-image {
+  background: url('@assets/images/giveaways.png');
+  background-size: cover;
+  border: 1px solid white;
+  width: 295px;
+  height: 166px;
+  margin-bottom: 20px;
+}
+
+.player-container .giveaways .blog-button {
+  border: 1px solid white;
+  width: 200px;
+  height: 60px;
+  padding-top: 21px;
+}
+
+.player-container .instagram-feed{
+  padding-bottom: 30px;
+}
+
+.player-container .instagram-feed .blog-image {
+  background: url('@assets/images/instagram-feed.png');
+  background-size: cover;
+  border: 1px solid white;
+  width: 306px;
+  height: 306px;
+  margin-bottom: 20px;
+}
+
+.player-container .instagram-feed .blog-button {
+  color: #6BC909;
+  font-family: 'Rajdhani-semibold';
+  font-size: 18px;
+}
+
+/* For Nfts Tab */
+
+.player-container .nft-line-ex .nft-column {
+  margin-right: 10px;
+}
+
+/* For Draft Tab */
+.player-container .nft-image-section {
+  max-width: 250px;
+}
+
+.player-container .image-border {
+  margin-left: 10px;
+}
+
+.player-container .nft-price-section {
+  width: 120px;
+}
+/* For Supporters Tab */
+.player-container .nft-address-section {
+  padding-left: 10px;
+  width: 250px;
+  display: flex;
+}
+
+@media only screen and (min-width: 992px) {
+  .player-container .player-card {
+    background: linear-gradient(to bottom, transparent, #171923), url('@assets/images/playercard-bg.jpg');
+  }
+
+  .player-container .player-card .img {
+    width: 280px;
+    height: 280px;
+    margin-top: 30px;
+  }
+
+  .player-container .player-card .img img {
+    width: 280px;
+    height: 280px;
+  }
+
+  .player-container .player-chart .chart{
+    width: 942px;
+  }
+
+  .player-container .chart-view-button {
+    right: -15%;
+  }
+
+  .player-container .carousel{
+    width: 942px;
+  }
+  
+  .player-container .alice-carousel{
+    width: 100%;
+  }
+
+  .player-container .alice-carousel__stage-item {
+    width: 314px !important;
+  }
+
+  .player-container .giveaways .blog-image {
+    background-size: inherit;
+    width: 942px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .player-container  .tab-bar-container .tab-item {
+    width: 80px;
+  }
+
+  .player-container .search-bar {
+    width: 320px;
+  }
+
+  .player-container .chart-view-button {
+    right: -50%;
+  }
+
+  .player-container .player-chart .chart{
+    width: 320px;
+  }
+  
+  .player-container .button-line .button-box{
+    margin: 0 8px;
+  }
+
+  .player-container .alice-carousel{
+    width: 284px;
+  }
+
+  .player-container .giveaways .blog-image {
+    width: 285px;
+    height: 156px;
+  }
+  
+  .player-container .instagram-feed .blog-image {
+    width: 286px;
+    height: 286px;
+  }
+  
+  .player-container .poll-container {
+    width: 260px;
+  }
+
+  .player-container .open-polls {
+    width: unset;
+  }
+  
+  .player-container .new-nfts .nft-card .nft {
+    width: 260px;
+    height: 260px;
+  }
+
+  .player-container .new-nfts .second-part {
+    width: 260px;
+    height: 230px;
+  }
+
+  .player-container .new-nfts .nft-image {
+    width: 180px;
+    height: 260px;
+  }
+
+  .new-nfts .alice-carousel__stage-item {
+    width: 284px !important;
+  }
+
+  .voting-polls .alice-carousel__stage-item {
+    width: 294px !important;
+  }
+}

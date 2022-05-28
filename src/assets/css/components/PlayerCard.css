@@ -1,0 +1,145 @@
+.card {
+  width: 280px;
+  height: 413px;
+  background: url('@assets/images/card1-bg-min.png'),
+  #09090E;
+  background-blend-mode: lighten,
+  normal;
+  border-radius: 16px;
+  padding: 20px 24px 3px 24px;
+  font-family: 'Rajdhani-bold';
+  margin: auto;
+}
+
+.inside-card {
+  font-weight: 700;
+  font-size: 21px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2px;
+}
+
+.time {
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  margin-top: 2px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border-radius: 50%;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(to top, #F3B127, #ffffff, #F3B127);
+}
+
+.img::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  left: 4px;
+  right: 4px;
+  background-color: #222435;
+  border-radius: 50%;
+}
+
+.img-radius {
+  border-radius: 50%;
+  z-index: 1;
+  padding: 4px;
+}
+
+.img-radius.cache-img {
+  border-radius: 50%;
+  z-index: 1;
+  padding: 4px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 19px;
+  color: #F3B127;
+  margin-top: 16px;
+}
+
+.divide {
+  height: 14px;
+  border-bottom: 1px solid #56596A;
+  margin-bottom: 12px;
+}
+
+.changed-price,
+.coin-issued,
+.holders {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 2px 0;
+}
+
+.number-color {
+  color: #6BC909
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.link-icon {
+  transform: rotate(-45deg);
+  color: #ABACB5;
+}
+
+.link-color {
+  color: #ABACB5;
+}
+
+.bottom-part {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+}
+
+.buy {
+  text-transform: uppercase;
+  color: #6BC909;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.link-buy {
+  text-decoration: auto;
+}
+
+.buy:hover {
+  color: #EC682C;
+  cursor: pointer;
+}
+
+.sell {
+  text-transform: uppercase;
+  color: #EC682C;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.sell:hover {
+  color: #6BC909;
+  cursor: pointer;
+}

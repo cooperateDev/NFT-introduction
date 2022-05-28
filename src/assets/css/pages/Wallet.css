@@ -1,0 +1,416 @@
+.wallet-container {
+    text-align: center;
+    /* width: 360px; */
+}
+
+.wallet-container>.tabs-container>.wallet-tab {
+    /* width: 96% !important; */
+    width: 116px !important;
+}
+
+.wallet-container>.tabs-container>.wallet-tab>.tab-item:nth-child(1) {
+    /* width: 96% !important; */
+    border-radius: 20px 20px 0 0;
+    width: 115px !important;
+}
+
+.wallet-wrapper {
+    border-radius: 0px;
+    width: 100%;
+    /* width: 96%; */
+    /* height: 90vh; */
+}
+
+.wallet-wrapper.mobile-wrapper{
+    height: 84vh !important;
+}
+
+.wallet-heading {
+    width: 279px;
+    font-size: 30px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+.wallet-heading.total-balance {
+    width: 175px;
+    margin-top: 46px;
+    margin-bottom: 0px;
+}
+
+.wallet-text {
+    width: 279px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 32px 0px
+}
+
+.create-secret-caption {
+    width: 300px;
+}
+
+.balance-card {
+  width: 320px;
+  height: 178px;
+  background: #171923;
+  border-radius: 20px;
+  flex: none;
+  margin: 24px 0px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.balance-progress {
+  width: inherit;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
+
+.balance-progress.hidden {
+    display: none !important;
+}
+
+
+.eth-amt {
+    /* width: 73px; */
+    width: 110px;
+    height: 32px;
+    left: 51px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+    color: #6BC909;
+    margin: 8px 0px;
+}
+
+.balance-control-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 24px;
+    width: inherit;
+    height: 16px;
+    margin-top: 10px;
+}
+
+.balance-control-wrapper>p {
+    text-decoration-line: underline;
+    color: #ABACB5;
+    cursor: pointer;
+}
+
+.balance-control-wrapper>p:hover {
+    color: #6BC909;
+}
+
+.wallet-btn-container {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+width: 335px;
+height: 50px;
+left: 0px;
+top: 202px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+/* margin: 24px 0px; */
+}
+
+.wallet-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: unset !important;
+    position: static;
+    width: 80px;
+    height: 50px;
+    left: 31.5px;
+    top: 0px;
+    background: #81DF0D;
+    border: 1px solid #81DF0D;
+    box-sizing: border-box;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    /* margin: 0; */
+    margin: 0 8px;
+    flex-grow: 0;
+}
+
+.export-key-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #ABACB5;
+    flex: none;
+    order: 1;
+    cursor: pointer;
+}
+
+.export-key-text span:hover {
+    color: #81DF0D;
+}
+
+.export-key-text svg {
+    font-size: 13px;
+}
+
+.wallet-tab {
+    background-color: transparent !important;
+    width: 114px !important;
+}
+
+.secret-submit {
+    margin: 20px 0 !important;
+}
+
+.wallet-tab > .tab-item {
+    background-color: transparent !important;
+    width: 114px !important;
+}
+
+@media only screen and (max-width: 360px) {
+    .secret-form{
+        width: 90vw
+    }
+
+    .secret-field-wrapper {
+        width: 100%;
+    }
+
+    .secret-field-wrapper label {
+        width: inherit;
+    }
+
+    .secret-field-wrapper > .textinput-wrapper {
+        width: inherit;
+    }
+  }
+
+
+@media only screen and (max-width: 600px) {
+  .create-secret-caption {
+    width: unset !important;
+  }
+}
+.player-coins {
+    margin-top: unset !important;
+    width: inherit;
+}
+
+.playercoin-img {
+    margin: 0 20px 0 9px !important;
+}
+
+.playercoin-section {
+    max-width: unset !important;
+}
+
+.playercoin-section> svg {
+    cursor: pointer;
+}
+
+.player-coin-item {
+  cursor: pointer;
+}
+
+.playercoin-price-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0px;
+    width: 93px;
+    height: 36px;
+}
+
+.select_nft_stake {
+    background-color: #81DF0D;
+    color: #09090E!important;
+    height: 80px;
+    width: 160px!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px!important;
+  }
+  
+  .select_nft_cancel {
+    background-color: #EB5757;
+    color: #09090E;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+.main-price-wrapper {
+  flex-direction: row;
+  display: flex;
+}
+
+.coin-price1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #6BC909;
+    /* margin: 0px 4px; */
+}
+
+.coin-price2 {
+    font-size: 16px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #FFFFFF;
+    flex: none;
+    order: 2;
+}
+
+.coin-price3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.price-slash {
+    width: 7px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    color: #407905;
+    flex: none;
+    margin: 0px 4px;
+}
+
+.form-note {
+    font-size: 16px;
+    margin: 0px;
+    width: 100%;    
+    color: red;
+}
+
+.bottom-popup-content .wallet-container {
+    width: 100%;
+    padding: 16px;
+}
+
+.bottom-popup-content .wallet-container > form > div {
+    font-family: 'Rajdhani-semibold';
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.bottom-popup-content .wallet-container .field-wrapper label{
+    color: #ABACB5;
+}
+
+.bottom-popup-content .wallet-container .field-wrapper .textinput-wrapper{
+    background-color: #F4F5F6;
+    width: 100%;
+}
+
+.bottom-popup-content .wallet-container .field-wrapper .textinput-wrapper input{
+    font-family: 'Rajdhani-semibold';
+}
+
+.bottom-popup-content .wallet-container .text-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    color: #ABACB5;
+    align-items: center;
+    padding-top: 5px;
+    flex-direction: row;
+}
+.bottom-popup-content .wallet-container .green-line-btn {
+    font-size: 18px;
+    color: #6BC909;
+    text-decoration: underline;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.bottom-popup-content .wallet-container .send-divider {
+    position: absolute;
+    bottom: 50px;
+    width: calc(100% - 32px);
+}
+
+.bottom-popup-content .wallet-container .passphrase-divider {
+    position: absolute;
+    bottom: 50px;
+    width: calc(100% - 32px);
+}
+
+.bottom-popup-content .wallet-container .deposit-divider {
+    position: absolute;
+    bottom: 10px;
+    width: calc(100% - 32px);
+}
+
+.bottom-popup-content .wallet-container .sub-title {
+    font-family: 'Rajdhani-bold';
+    font-weight: 700;
+    font-size: 22px;
+    color: white;
+}
+
+.bottom-popup-content .wallet-container .address-box {
+    margin: 10px;
+    padding: 30px;
+    border: 1px solid #56596A;
+    border-radius: 20px;
+    overflow-wrap: anywhere;
+    line-height: 20px;
+}
+
+.bottom-popup-content .wallet-container .address-box p {
+    font-size: 18px;
+}
+
+.bottom-popup-content .wallet-container .copy-button {
+    width: 56px;
+    height: 56px;
+    border: 1px solid #56596A;
+    border-radius: 100%;
+    background: url('@assets/images/wallet-copy.png'), #56596A;
+    background-size: cover;
+    cursor: pointer;
+}

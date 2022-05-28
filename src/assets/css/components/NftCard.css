@@ -1,0 +1,70 @@
+.nft {
+  width: 280px;
+  height: 280px;
+  background: url('@assets/images/card2-bg-min.png');
+  background-repeat: no-repeat;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin: auto;
+}
+
+.second-part {
+  width: 280px;
+  height: 179px;
+  background-color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 16px 24px 29px 24px;
+  font-family: 'Rajdhani-bold';
+  margin: auto;
+}
+
+.nft-image-cover {
+  display: flex;
+  justify-content: center;
+}
+
+.nft-image {
+  width: 280px;
+  height: 280px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.nft-name {
+  color: #80828F;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.nft-title, .nft-number {
+  font-weight: 700;
+  font-size: 21px;
+  color: #2C2F45;
+  margin: 2px 0;
+  text-align: left;
+}
+
+.nft-section-divided {
+  height: 10px;
+  border-bottom: 1px solid #D5D5DA;
+  margin-bottom: 10px;
+}
+
+.nft-owner-color, .nft-2-mint-data{
+  font-weight: 600;
+  font-size: 16px;
+  color: #2C2F45;
+  display: flex;
+  justify-content: space-between;
+  margin: 2px 0;
+}
+
+.owner-value {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100px;
+  overflow: hidden;
+}

@@ -1,0 +1,358 @@
+/* Helper classes */
+.mt-40 {
+  margin-top: 40px !important;
+}
+
+.mb-40 {
+  margin-bottom: 40px !important;
+}
+
+.mt-0 {
+  margin-top: 0px !important;
+}
+
+.ml-1 {
+  margin-left: 10px;
+}
+
+.p-0 {
+  padding: unset !important;
+}
+
+.m-0auto{
+  margin: 0 auto;
+}
+
+.fullwidth {
+  width: 100%;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-middle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fixed-content{
+  max-width: 360px;
+  width: 360px;
+}
+
+@media only screen and (max-width: 360px) {
+  .fixed-content{
+    max-width: 360px;
+    width: 320px;
+  }  
+}
+
+/* Page Container */
+
+.container > section {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  min-height: 70vh;
+  border-radius: 0px;
+  margin: auto;
+  width: unset;
+}
+
+.modal-content > section {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: #212435;
+  flex-direction: column;
+  min-height: 70vh;
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  border-radius: 20px;
+  height: 100%;
+}
+
+/* Tab Container */
+
+.tabs-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  height: 60px;
+  width: 100%;
+  justify-content: space-around;
+  background: #171923;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.tab-item {
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  color: #abacb5;
+  font-family: 'Rajdhani-bold';
+  background: #171923;
+  height: 60px;
+}
+
+.tab-item button {
+  position: static;
+  /* width: 28px; */
+  height: 18px;
+  left: calc(50% - 28px / 2);
+  top: calc(50% - 18px / 2 - 10.5px);
+  font-family: 'Rajdhani-bold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  display: flex;
+  padding: 0px;
+  align-items: center;
+  text-align: center;
+  color: #abacb5;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  /* margin: 18px 0px; */
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.tab-active {
+  border-bottom: 2px solid #6bc909;
+  color: white !important;
+}
+
+/* Components */
+
+.home {
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+      180deg,
+      rgba(23, 25, 35, 0) 38.16%,
+      #171923 45.99%
+    ),
+    url('@assets/images/stadium-min.png'), #171923;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 60px;
+}
+
+.logo-img {
+  width: 120px;
+}
+
+.wallet-address:hover {
+  cursor: pointer;
+}
+
+/* Nft list */
+.list-header {
+  font-family: 'Rajdhani-semibold';
+  color: #abacb5;
+  border-bottom: 1px solid #56596a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nft-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  border-bottom: 1px solid #2c2f45;
+  font-family: 'Rajdhani-semibold';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 20px 20px 20px 10px;
+  text-align: right;
+}
+
+.nft-image-section {
+  max-width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nft-image-section .nft-image {
+  width: 40px;
+  height: 40px;
+  padding: 1px;
+  z-index: 1;
+  border-radius: 50%;
+}
+
+.image-border {
+  position: relative;
+  margin-left: 20px;
+  margin-right: 10px;
+  display: flex;
+  border-radius: 50%;
+  background: linear-gradient(to top, #f3b127, #ffffff, #f3b127);
+}
+
+.image-border::before {
+  content: '';
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  left: 1px;
+  right: 1px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.nft-name-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+  padding-left: 20px;
+}
+
+.nft-name {
+  color: #f3b127;
+  text-align: left;
+  width: 130px;
+}
+
+.nft-price {
+  color: #abacb5;
+}
+
+/* icon color */
+
+.icon-color {
+  margin: 22px;
+  color: white;
+}
+
+.icon-color-search {
+  height: 16px;
+  cursor: pointer;
+}
+
+.icon-color-search.black {
+  color: #09090e;
+}
+
+.icon-color-search.gray {
+  color: #abacb5;
+}
+
+.icon-color:hover {
+  cursor: pointer;
+}
+
+.field-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: static;
+  /* width: 299px; This makes awful scroll at Galaxy S9 */
+  /* width: 327px; */
+  /* height: 74px; */
+  left: calc(50% - 327px / 2);
+  top: calc(50% - 74px / 2 - 98px);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top: 24px;
+}
+
+/* Nft line */
+
+.nft-line {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nft-line .nft-card {
+  margin-bottom: 12px;
+  padding: 10px;
+  background: linear-gradient(156.63deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 115.46%);
+  border-radius: 8px;
+}
+
+.nft-line .nft {
+  width: 145px;
+  height: 145px;
+  /* background: url('@assets/images/card2-bg-min.png'); */
+  /* background-repeat: no-repeat; */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin: auto;
+}
+
+.nft-line .second-part {
+  width: 145px;
+  height: 53px;
+  background-color: inherit;
+  padding: 7.5px 0px;
+  text-align: left;
+  font-family: 'Rajdhani-semibold';
+  font-style: normal;
+}
+
+.nft-line  .nft-image {
+  width: 145px;
+  height: 145px;
+  /* border-radius: 10px; */
+}
+
+.nft-line .nft-name {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #80828F;
+}
+
+.nft-line .nft-title, 
+.nft-line .nft-number {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  color: #FFFFFF;
+  padding-top:2px;
+}
+
+@media only screen and (max-width: 360px) {
+  .nft-line .nft {
+    width: 125px;
+    height: 125px;
+  }
+  .nft-line .second-part {
+    width: 125px;
+    height: 53px;
+  }
+  
+  .nft-line  .nft-image {
+    /* width: 105px; */
+    height: 125px
+  }
+}

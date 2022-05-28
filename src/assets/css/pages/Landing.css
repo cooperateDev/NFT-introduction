@@ -1,0 +1,453 @@
+
+.sub-menu-btn {
+  display: none !important;
+}
+/* bottom-section */
+.bottom {
+  background-color: #12131c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.bottom-title {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.blog-title {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.blog-content {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 60px;
+  justify-content: center;
+  width: 600px;
+}
+
+.input-box {
+  padding: 15.5px;
+  border-radius: 16px;
+  text-align: center;
+  width: 400px;
+  height: 50px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 125%;
+  margin-top: 32px;
+}
+
+.input-box.otp {
+  border-radius: 8px !important;
+  width: 40px !important;
+  padding: 0px !important;
+  font-family: 'Rajdhani-bold';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  background: #2c2f45;
+  color: #abacb5;
+  outline: none;
+  border: none;
+  margin: 0 2px;
+}
+
+.faq-title {
+  margin: 60px 0px 24px;
+}
+
+.mecarriera-title {
+  margin: 40px 0px 32px;
+}
+
+.button-box {
+  border: 1px solid #6bc909;
+  color: #6bc909;
+  width: 200px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 100%;
+  margin-top: 32px;
+  text-transform: uppercase;
+}
+
+.button-box.hidden {
+  display: none;
+}
+
+.button-box.disabled {
+  pointer-events: none;
+  border: 1px solid #abacb5;
+  color: #abacb5;
+}
+
+.button-box-min {
+  border: 1px solid #6bc909;
+  color: #6bc909;
+  width: 200px;
+  height: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.button-box:hover {
+  cursor: pointer;
+  background-color: #81df0d;
+  color: #09090e;
+}
+
+.button-line {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 36px;
+}
+
+.placeholder-about {
+  margin-bottom: 24px;
+  height: 60px;
+  margin-top: 32px;
+}
+
+.social-icons {
+  cursor: pointer;
+  margin: 32px 8px 0px;
+}
+
+.social-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-link {
+  font-weight: 600;
+  font-size: 18px;
+  padding-top: 24px;
+}
+
+.company-title {
+  margin: 60px 0 32px;
+}
+
+.copyright {
+  margin-top: -20px;
+  margin-bottom: 60px;
+}
+
+/* about content */
+.about-content {
+  display: flex;
+  background-color: #222435;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-center-content {
+  margin: 20px 0;
+  padding-bottom: 0 !important;
+  /* width: 600px; */
+}
+
+.question-icon {
+  display: flex;
+  justify-content: center;
+  margin: 60px 0 20px;
+}
+
+.buy-video {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 20px;
+}
+
+.buy-title {
+  margin-top: 60px;
+}
+
+.buy-content {
+  margin-top: 20px;
+  padding-bottom: 0 !important;
+}
+
+/* faq */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accordion {
+  width: 500px;
+}
+
+.item {
+  background: #222435;
+  margin-bottom: 5px;
+  padding: 10px 20px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  border-bottom: 1px solid #56596a;
+  width: 100%;
+}
+
+.title h2 {
+  font-size: 16px !important;
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.content.show {
+  max-height: 130px;
+  transition: 0.3s;
+  padding-left: 24px;
+  font-size: 15px;
+  margin-top: 16px;
+  border-left: 1px solid #fff;
+}
+
+.expanded-icon {
+  color: #6bc909;
+  font-size: 30px;
+}
+
+.minus {
+  padding-right: 4px;
+}
+
+/* latest create NFT */
+.latest-create-nft {
+  background-color: #12131c;
+}
+
+.latest-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-nft-content,
+.latest-text-content,
+.blog-content {
+  padding: 0 48px;
+  text-align: center;
+}
+
+.latest-text-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 32px 0px;
+}
+
+.latest-title {
+  margin-top: 60px;
+  margin-bottom: 32px;
+}
+
+.latest-more-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 32px 0px 60px;
+  color: #6bc909;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+/* new launches nft */
+.new-launches-nft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.new-nft-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  margin-top: 60px;
+  padding: 0 10px;
+  font-family: 'Rajdhani-bold';
+}
+
+.register-button {
+  margin-bottom: 24px;
+}
+
+.new-nft-content {
+  margin-top: 32px;
+}
+
+.new-launches-title {
+  margin-bottom: 24px;
+}
+
+.container > .about-section {
+  display: inline;
+  text-align: inherit;
+}
+
+.container > .bottom-section {
+  display: inline;
+  text-align: inherit;
+}
+
+.more-view {
+  color: #6bc909;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.more-view-cover {
+  margin: 32px 0px 60px;
+}
+
+/* common */
+.bottom-line {
+  border-bottom: 1px solid #56596a;
+  margin: 60px 20%;
+}
+
+.input-feedback {
+  color: red;
+  margin-top: 0.25rem;
+  text-align: left;
+  font-size: 14px;
+}
+
+.field-place {
+  width: inherit;
+  height: 20px;
+}
+
+.input-feedback.purchase-error {
+  width: inherit;
+  margin-top: 0px;
+}
+
+.input-feedback.otp-error {
+  /* width: 200px; */
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 80px;
+}
+
+.input-feedback.otp-success {
+  color: #6bc909;
+  text-align: center !important;
+  width: 100%;
+}
+
+.navigation-link {
+  text-decoration: none;
+}
+
+@media (max-width: 912px) {
+  .blog-content,
+  .buy-content,
+  .accordion {
+    width: 100vw;
+  }
+
+  .input-box {
+    width: 300px;
+  }
+
+  .new-nft-title {
+    font-size: 30px;
+  }
+
+  .footer-nav-item {
+    width: 75px;
+    height: 70px;
+  }
+  
+
+  .home {
+    background-size: 100vw 120vh !important;
+  }
+
+  .home-icon {
+    padding: 0 0 10px;
+  }
+
+  .footer {
+    height: 70px;
+  }
+
+  .blog-title {
+    font-size: 22px;
+  }
+
+  .social-icons {
+    margin: 15px 8px 0px;
+    width: 13%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .footer {
+    width: 50vw;
+    left: 25vw;
+    border-radius: 5px;
+  }
+  .footer-nav-item {
+    border-radius: 0px 5px 5px 0px;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .footer {
+    width: 50vw;
+    left: 25vw;
+    border-radius: 5px;
+  }
+  .footer-nav-item {
+    border-radius: 0px 5px 5px 0px;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .footer {
+    width: 40vw;
+    left: 30vw;
+    border-radius: 5px;
+  }
+  .footer-nav-item {
+    border-radius: 0px 5px 5px 0px;
+  }
+}

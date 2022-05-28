@@ -1,0 +1,36 @@
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1216px;
+}
+
+.alice-carousel__stage-item {
+  width: 304px !important;
+}
+
+.alice-carousel__dots-item:not(.__custom).__active {
+  background: #6bc909;
+  border-radius: 4px;
+  width: 30px;
+}
+
+.alice-carousel__dots-item:not(.__custom):hover {
+  background: #6bc909;
+}
+
+@media (max-width: 1216px) {
+  .carousel {
+    width: 916px;
+  }
+}
+
+@media (max-width: 912px) {
+  .carousel {
+    width: 100vw;
+  }
+
+  .alice-carousel {
+    width: 304px;
+  }
+}

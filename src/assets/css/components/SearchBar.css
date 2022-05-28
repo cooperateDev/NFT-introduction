@@ -1,0 +1,19 @@
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  color: #abacb5;
+  height: 60px;
+  width: 100%;
+}
+
+.search-filter-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-filter-section > .icon-color {
+  color: #abacb5;
+}
